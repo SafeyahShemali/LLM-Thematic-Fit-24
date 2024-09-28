@@ -1,12 +1,11 @@
-# Uncovering Autoregressive LLM Knowledge of Thematic-Fit in Event Representation
-This is a reference to the research paper of title (Uncovering Autoregressive LLM knowledge of Thematic Fit). 
+This is a reference to the research paper of the title
 
-# Paper template for the pinga-lab (*replace with paper title*)
+# Uncovering Autoregressive LLM Knowledge of Thematic-Fit in Event Representation
 
 by
-Author 1,
-Author 2,
-etc
+Safeyah Khaled Alshemali,
+Daniel Bauer,
+Yuval Marton
 
 > This is a template for papers that use Python code and Jupyter notebooks to
 > generate their results (though it can be adapted to use other technologies).
