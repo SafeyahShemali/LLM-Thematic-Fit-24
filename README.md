@@ -5,9 +5,17 @@ Safeyah Khaled Alshemali,
 Daniel Bauer,
 Yuval Marton
 
-> In this work, we assess whether pre-trained autoregressive LLMs possess consistent, expressible knowledge about thematic fit. We evaluate both closed and open state-of-the-art LLMs on several psycholinguistic datasets, along three axes:**(1) Reasoning Form: ** multi-step logical reasoning (chain-of-thought prompting) vs. simple prompting. **(2) Input Form:**  providing context (generated sentences) vs. raw tuples $\langle$predicate, argument,  role$\rangle$. **(3) Output Form: ** categorical score vs. numeric score.
+> In this work, we assess whether pre-trained autoregressive LLMs possess consistent, expressible knowledge about thematic fit. We evaluate both closed and open state-of-the-art LLMs on several psycholinguistic datasets, along three axes: (1) Reasoning Form: multi-step logical reasoning (chain-of-thought prompting) vs. simple prompting. (2) Input Form: providing context (generated sentences) vs. raw tuples <predicate, argument,  role>. (3) Output Form: categorical score vs. numeric score.
 
-> Fill out the sections below with the information for your paper. **
+## License
+
+> All source code is made available under a BSD 3-clause license. You can freely
+use and modify the code, without warranty, so long as you provide attribution
+to the authors.
+
+[Check] See `LICENSE.md` for the full license text.
+
+> The authors reserve the rights to the article content, which is currently submitted for publication in the COLING 2025.
 
 This paper has been submitted for publication in COLING 2025.
 
@@ -115,12 +123,4 @@ and produces it's output.
 To execute the whole notebook, run all cells in order.
 
 
-## License
 
-All source code is made available under a BSD 3-clause license. You can freely
-use and modify the code, without warranty, so long as you provide attribution
-to the authors. See `LICENSE.md` for the full license text.
-
-The manuscript text is not open source. The authors reserve the rights to the
-article content, which is currently submitted for publication in the
-JOURNAL NAME.
