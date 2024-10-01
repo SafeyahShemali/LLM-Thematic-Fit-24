@@ -7,26 +7,12 @@ Yuval Marton
 
 > This repository consists of our study's source code. In it, we investigate whether pre-trained autoregressive LLMs acquire the internal linguistic knowledge to evaluate thematic fit,  along three axes: (1) Reasoning Form: multi-step logical reasoning (chain-of-thought prompting) vs. simple prompting. (2) Input Form: providing context (generated sentences) vs. raw tuples <predicate, argument,  role>. (3) Output Form: categorical score vs. numeric score. We evaluate closed and open state-of-the-art LLMs on several psycholinguistic datasets (Ferretti Sets, Pado, and McRae). As a result we conduct 8 experiments as shown in the table below. 
 
-![](exp-overview-table.png) ![](exp-overview-table.png) 
-
-## License
-
-> All source code is made available under a BSD 3-clause license. You can freely
-use and modify the code, without warranty, so long as you provide attribution
-to the authors.
-
-[Check] See `LICENSE.md` for the full license text.
-
-> The authors reserve the rights to the article content, which is currently submitted for publication in the COLING 2025.
+![](exp-overview-table.png) ![](Simple-vs-StepbyStep.png) 
 
 ## Citation
 
 [Check] Create BibTex .bib file.
 
-## [Check] Abstract
-
-> The thematic fit estimation task measures the compatibility between a predicate (typically a verb), an argument (typically a noun phrase), and a specific semantic role assigned to the argument. Previous state-of-the-art work has focused on modeling thematic fit through distributional or neural models of event representation, trained in a supervised fashion with indirect labels. In this work, we assess whether pre-trained autoregressive LLMs possess consistent, expressible knowledge about thematic fit. We evaluate both closed and open state-of-the-art LLMs on several psycholinguistic datasets,  along three axes: (1) Reasoning Form:  multi-step logical reasoning (chain-of-thought prompting) vs. simple prompting. (2) Input Form:  providing context (generated sentences) vs. raw tuples <predicate, argument,  role>. (3) Output Form: categorical vs. numeric. Our results show that chain-of-thought reasoning is more effective on datasets with self-explanatory semantic role labels, especially Location.
-Generated sentences helped only in few settings, and lowered results in many others. Predefined categorical (compared to numeric) output raised GPT’s results across the board with few exceptions, but lowered Llama’s. We saw that semantically incoherent generated sentences, which the models lack the ability to consistently filter out, hurt reasoning and overall performance too. Our GPT-powered methods set new state-of-the-art on all tested datasets. The source code is available at: https://github.com/SafeyahShemali/LLM-Thematic-Fit-24.
 
 ## Software implementation
 
@@ -75,5 +61,10 @@ Executing text cells does nothing and executing code cells runs the code
 and produces it's output.
 To execute the whole notebook, run all cells in order.
 
+## License
+
+> All source code is made available under a BSD 3-clause license. You can freely
+use and modify the code, without warranty, so long as you provide attribution
+to the authors. See `LICENSE.md` for the full license text.
 
 
