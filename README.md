@@ -1,4 +1,4 @@
-# Uncovering Autoregressive LLM Knowledge of Thematic-Fit in Event Representation
+# Uncovering Autoregressive LLM Knowledge of Thematic-Fit in Event Representation 
 
 by
 Safeyah Khaled Alshemali,
@@ -10,9 +10,21 @@ Yuval Marton
 ![](exp-overview-table.png) ![](Simple-vs-StepbyStep.png) 
 
 ## Citation
+If you use or refer to this work, please cite our paper as follow:
 
-[Check] Create BibTex .bib file.
+Paper Link: [URL of the Paper]
 
+BibTex:
+```
+@article{LLM-ThematicFit-24,
+      title={Uncovering Autoregressive LLM Knowledge of Thematic-Fit in Event Representation},
+      author={Safeyah Khaled Alshemali, Daniel Bauer, Yuval Marton}
+      year={2024},
+      eprint={??},
+      archivePrefix={arXiv},
+      primaryClass={??}
+}
+```
 
 ## Software implementation
 
