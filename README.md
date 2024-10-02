@@ -55,7 +55,7 @@ You can download a copy of all the files in this repository by cloning the
 
 ## Reproducing the results
 
-To reproduce the results, execute the Jupyter notebook individually after adding the datasets. Note: make sure to pass the right dataset name to the `Experiments Notebook` cells.
+To reproduce the results, execute the Jupyter notebook individually after adding the datasets. 
 
 To do this, you must first start acquire all the needed dependencies and hardware configuration. for the dependencies, you can run the exported environment specified in `environment.yml` file as follow:
 
@@ -65,16 +65,16 @@ conda env create -f environment.yml
 
 Then start the notebook server by going into the repository top level and running:
 
-    jupyter notebook
+    jupyter notebook 
 
 This will start the server and open your default web browser to the Jupyter
-interface. In the page, go into the `code/notebooks` folder and select the
-notebook that you wish to view/run.
+interface. In the page, go into the `Code` folder and select the `Experiments Notebook` to view/run.
 
 The notebook is divided into cells (some have text while other have code).
 Each cell can be executed using `Shift + Enter`.
 Executing text cells does nothing and executing code cells runs the code
 and produces it's output.
+> Note: make sure to pass the right dataset name to the `Experiments Notebook` code cells.
 To execute the whole notebook, run all cells in order.
 
 ## License
