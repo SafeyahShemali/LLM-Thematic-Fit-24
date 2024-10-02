@@ -1,6 +1,9 @@
 '''
 Overview:
-This code consists of function that is related to interacting with the models' API
+This code consists of a function that is related to interacting with the models' API
+
+Note: 
+To run the experiments, please use the 'Experiments Notebook' jupyter notebook. 
 '''
 
 from models import Model
