@@ -27,7 +27,7 @@ BibTex:
 ```
 
 ## Implementation
-> Implementing this code needs configuring the software dependencies and hardware units. These settings will be explained below and followed by how to get the code.
+> Implementing this code needs configuring the software dependencies and hardware units. These settings will be explained below followed by how to get the code.
 
 #### Software Dependencies:
 Tested OS: Deep Learning on Linux, VM M112, Debian 11\
