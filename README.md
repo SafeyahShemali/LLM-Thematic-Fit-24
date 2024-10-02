@@ -7,7 +7,7 @@ Yuval Marton
 
 > This repository consists of our study's source code. In it, we investigate whether pre-trained autoregressive LLMs acquire the internal linguistic knowledge to evaluate thematic fit,  along three axes: (1) Reasoning Form: multi-step logical reasoning (chain-of-thought prompting) vs. simple prompting. (2) Input Form: providing context (generated sentences) vs. raw tuples <predicate, argument,  role>. (3) Output Form: categorical score vs. numeric score. We evaluate closed and open state-of-the-art LLMs on several psycholinguistic datasets (Ferretti Sets, Pado, and McRae). As a result we conduct 8 experiments as shown in the table below. 
 
-![](exp-overview-table.png) ![](Simple-vs-StepbyStep.png) 
+![](figures/exp-overview-table.png) ![](figures/Simple-vs-StepbyStep.png) 
 
 ## Citation
 If you use or refer to this work, please cite our paper as follow:
@@ -29,27 +29,20 @@ BibTex:
 ## Implementation
 > Implementing this code needs configuring the software dependencies and hardware units. These settings will be explained below and followed by how to get the code.
 
-#### Software Setting
+#### Software Dependencies:
+Tested OS: Deep Learning on Linux, VM M112, Debian 11\
+Language: Python 3.10\
+Python Libraries: json, tenacity, openai (model API endpoint)\
+CUDA: 12.1\
 
-Key Dependencies:
-Tested OS: Ubuntu 18.04, Windows, Debian 10
-Language: Python 3.10.14
-Python Libraries: json, tenacity, openai (model API endpoint)
-CUDA: 12.1
-
-
-
-
-
-> The experiments have been designed via Python languages with some basic libraries like json (check Dependencies below).
-> Prompting the model was done through their API endpoint. The vLLM ref(??) has been used to acquire less GPUS while running the codellama2 model and accelerate its performance.
 #### Hardware Setting
-Platform: Google Cloud Platform (GCP)
-Models: GPT4Turbo (via openai API), Codellama2-Instruct-13B (via huggingfaces)
-Hardware Configuration:
-> GPT Model: any small size of CPU unit is sufficient 
-> Llama Model: to host, run the models' server, and query the model, you need at least two of NVIDIA L4 GPUs. 
+**Platform:** Google Cloud Platform (GCP)\
+**Models: **GPT4Turbo (via openai API), Codellama2-Instruct-13B (via huggingfaces)\
+**Hardware Configuration:**\
+1. GPT Model: any small size of CPU unit is sufficient \
+2. Llama Model: to host, run the models' server, and query the model, you need at least two of NVIDIA L4 GPUs.\
 
+The vLLM (https://github.com/vllm-project/vllm) has been used to acquire less GPUS while running the codellama2 model and accelerate its performance.
 #### Getting the code
 
 > The experiments has been design via Python languages with some basic libraries like pandas.
