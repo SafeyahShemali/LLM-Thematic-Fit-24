@@ -53,7 +53,7 @@ You can download a copy of all the files in this repository by cloning the
 
     git clone https://github.com/SafeyahShemali/LLM-Thematic-Fit-
 
-## Reproducing the results
+#### Reproducing the results
 
 To reproduce the results, execute the Jupyter notebook individually after adding the datasets. 
 
