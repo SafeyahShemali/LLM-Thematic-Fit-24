@@ -1,6 +1,9 @@
 '''
 Overview:
-This file is about creating an object of the required model with all necessary hyper-parameter settings to be passed to models API.
+This file creates an object of the required model with all necessary hyper-parameter settings to be passed to the model's API.
+
+Note: 
+To run the experiments, please use the 'Experiments Notebook' jupyter notebook. 
 '''
 
 import prompt_bank
