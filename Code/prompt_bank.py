@@ -1,3 +1,8 @@
+'''
+Overview:
+This file consider as a bank to all prompts has been used throughout the expeiments.
+'''
+
 system_prompt = "You are a linguist who understands semantic roles and can provide a rating on the semantic fit of predicate-arguments for a specific semantic role, given the predicate, the argument, and the semantic role."
 
 def get_prompt(model_name: str ,prompt_type: str, predicate: str, argument: str, roleType: str, json_key: str, sentence : str):

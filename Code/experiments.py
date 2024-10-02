@@ -1,3 +1,12 @@
+'''
+Overview: 
+This file consists of the core functions to the 4 type of expeiments we conduct.
+This could be consider the main code that is linking other code files.
+
+Note:
+To run the experiments, please use the Experiments Notebook. 
+'''
+
 import data
 from models import Model
 import fit_scoring

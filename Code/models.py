@@ -1,3 +1,8 @@
+'''
+Overview:
+This file is about creating an object of the required model with all necessary hyper-parameter settings to be passed to models API.
+'''
+
 import prompt_bank
 from openai import OpenAI
 from tenacity import (retry, stop_after_attempt, wait_random_exponential)

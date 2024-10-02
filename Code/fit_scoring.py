@@ -1,3 +1,8 @@
+'''
+Overview:
+This code consists of function that is related to interacting with the models' API
+'''
+
 from models import Model
 import json
 import data
