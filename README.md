@@ -42,7 +42,7 @@ CUDA: 12.1\
 1. GPT Model: any small size of CPU unit is sufficient \
 2. Llama Model: to host, run the models' server, and query the model, you need at least two of NVIDIA L4 GPUs.\
 
-The vLLM (https://github.com/vllm-project/vllm) has been used to acquire less GPUS while running the codellama2 model and accelerate its performance.
+The vLLM (https://github.com/vllm-project/vllm) has been used to acquire less GPUS while running the Llama model and accelerate its performance.
 #### Getting the code
 
 > The experiments has been design via Python languages with some basic libraries like pandas.
