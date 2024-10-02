@@ -1,6 +1,9 @@
 '''
 Overview:
-This file consider as a bank to all prompts has been used throughout the expeiments.
+This file, considered as a bank to all prompts, has been used throughout the experiments.
+
+Note: 
+To run the experiments, please use the 'Experiments Notebook' jupyter notebook. 
 '''
 
 system_prompt = "You are a linguist who understands semantic roles and can provide a rating on the semantic fit of predicate-arguments for a specific semantic role, given the predicate, the argument, and the semantic role."
