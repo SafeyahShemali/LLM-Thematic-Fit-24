@@ -26,7 +26,31 @@ BibTex:
 }
 ```
 
-## Software implementation
+## Implementation
+> Implementing this code needs configuring the software dependencies and hardware units. These settings will be explained below and followed by how to get the code.
+
+#### Software Setting
+
+Key Dependencies:
+Tested OS: Ubuntu 18.04, Windows, Debian 10
+Language: Python 3.10.14
+Python Libraries: json, tenacity, openai (model API endpoint)
+CUDA: 12.1
+
+
+
+
+
+> The experiments have been designed via Python languages with some basic libraries like json (check Dependencies below).
+> Prompting the model was done through their API endpoint. The vLLM ref(??) has been used to acquire less GPUS while running the codellama2 model and accelerate its performance.
+#### Hardware Setting
+Platform: Google Cloud Platform (GCP)
+Models: GPT4Turbo (via openai API), Codellama2-Instruct-13B (via huggingfaces)
+Hardware Configuration:
+> GPT Model: any small size of CPU unit is sufficient 
+> Llama Model: to host, run the models' server, and query the model, you need at least two of NVIDIA L4 GPUs. 
+
+#### Getting the code
 
 > The experiments has been design via Python languages with some basic libraries like pandas.
 > Prompting the model was done through their API endpoint. The vLLM ref(??) has been used to aqcquire less GPUS while running the codellama2 model and accelerate its perforance.
