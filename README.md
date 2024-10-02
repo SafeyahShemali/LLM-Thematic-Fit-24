@@ -51,7 +51,7 @@ The vLLM (https://github.com/vllm-project/vllm) has been used to acquire less GP
 You can download a copy of all the files in this repository by cloning the
 [git](https://github.com/SafeyahShemali/LLM-Thematic-Fit-24) repository:
 
-    git clone https://github.com/SafeyahShemali/LLM-Thematic-Fit-24
+    git clone https://github.com/SafeyahShemali/LLM-Thematic-Fit-24.git
 
 #### Reproducing the results
 
