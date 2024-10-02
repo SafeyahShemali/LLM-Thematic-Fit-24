@@ -1,6 +1,9 @@
 '''
 Overview:
 This file consists of functions needed to process the input data (like read_data dataset), model responses (like processing_json function), or output data (like save_result function).
+
+Note:
+To run the experiments, please use the 'Experiments Notebook' jupyter notebook. 
 '''
 
 import os
